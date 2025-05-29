@@ -1,3 +1,8 @@
+local existingGui = game:GetService("CoreGui"):FindFirstChild("ScreenGui")
+if existingGui then
+    existingGui:Destroy()
+end
+
 local ScreenGui = Instance.new("ScreenGui")
 local Window = Instance.new("ImageLabel")
 local Bar = Instance.new("Frame")
@@ -18,7 +23,7 @@ Window.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Window.BackgroundTransparency = 1.000
 Window.ClipsDescendants = true
 Window.Draggable = true
-Window.Position = UDim2.new(0, 300, 0, 40)
+Window.Position = UDim2.new(0, 300, 0, 80)
 Window.Selectable = true
 Window.Size = UDim2.new(0, 207, 0, 420)
 Window.ZIndex = 11
