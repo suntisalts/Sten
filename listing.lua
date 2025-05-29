@@ -15,6 +15,7 @@ local ScrollingFrame = Instance.new("ScrollingFrame")
 local UIListLayout = Instance.new("UIListLayout")
 
 MainPart.Parent = game:GetService("CoreGui")
+MainPart.Name = "MainPart"
 
 Window.Name = "Window"
 Window.Parent = MainPart
