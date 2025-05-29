@@ -1,9 +1,9 @@
-local existingGui = game:GetService("CoreGui"):FindFirstChild("ScreenGui")
+local existingGui = game:GetService("CoreGui"):FindFirstChild("MainPart")
 if existingGui then
     existingGui:Destroy()
 end
 
-local ScreenGui = Instance.new("ScreenGui")
+local MainPart = Instance.new("ScreenGui")
 local Window = Instance.new("ImageLabel")
 local Bar = Instance.new("Frame")
 local Toggle = Instance.new("ImageButton")
@@ -14,10 +14,10 @@ local Tabs = Instance.new("Frame")
 local ScrollingFrame = Instance.new("ScrollingFrame")
 local UIListLayout = Instance.new("UIListLayout")
 
-ScreenGui.Parent = game:GetService("CoreGui")
+MainPart.Parent = game:GetService("CoreGui")
 
 Window.Name = "Window"
-Window.Parent = ScreenGui
+Window.Parent = MainPart
 Window.Active = true
 Window.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Window.BackgroundTransparency = 1.000
