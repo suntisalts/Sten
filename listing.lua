@@ -122,6 +122,7 @@ TextButton.TextSize = 13
 TextButton.Size = UDim2.new(0, 60, 0, 20)
 TextButton.Position = UDim2.new(1, -64, 0, -1)
 TextButton.ZIndex = 99
+Window.Position = UDim2.new(0, 640, 0, 40)
 
 UICorner.CornerRadius = UDim.new(0, 5)
 UICorner.Parent = TextButton
