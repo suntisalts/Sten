@@ -19,7 +19,6 @@ MainPart.Name = "MainPart"
 
 Window.Name = "Window"
 Window.Parent = MainPart
-Window.Position = UDim2.new(0, 500, 0, 40)
 Window.Active = true
 Window.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Window.BackgroundTransparency = 1.000
@@ -32,6 +31,7 @@ Window.Image = "rbxassetid://2851926732"
 Window.ImageColor3 = Color3.fromRGB(20, 21, 23)
 Window.ScaleType = Enum.ScaleType.Slice
 Window.SliceCenter = Rect.new(12, 12, 12, 12)
+Window.Position = UDim2.new(0, 500, 0, 40)
 Window.Draggable = true
 
 Bar.Name = "Bar"
