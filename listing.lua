@@ -19,8 +19,8 @@ MainPart.Name = "MainPart"
 
 Window.Name = "Window"
 Window.Parent = MainPart
+Window.Position = UDim2.new(0, 500, 0, 40)
 Window.Active = true
-Window.Position = UDim2.new(0, 700, 0, 40)
 Window.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Window.BackgroundTransparency = 1.000
 Window.ClipsDescendants = true
