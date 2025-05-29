@@ -18,6 +18,7 @@ MainPart.Parent = game:GetService("CoreGui")
 MainPart.Name = "MainPart"
 
 Window.Name = "Window"
+Window.Position = UDim2.new(0, 640, 0, 40)
 Window.Parent = MainPart
 Window.Active = true
 Window.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -31,8 +32,8 @@ Window.Image = "rbxassetid://2851926732"
 Window.ImageColor3 = Color3.fromRGB(20, 21, 23)
 Window.ScaleType = Enum.ScaleType.Slice
 Window.SliceCenter = Rect.new(12, 12, 12, 12)
-Window.Position = UDim2.new(0, 800, 0, 40)
 Window.Draggable = true
+Window.Position = UDim2.new(0, 640, 0, 40)
 
 Bar.Name = "Bar"
 Bar.Parent = Window
